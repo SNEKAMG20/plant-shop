@@ -1,0 +1,46 @@
+.product-page {
+  padding: 20px;
+  text-align: center;
+}
+
+.categories button {
+  margin: 5px;
+  padding: 10px 15px;
+  border: none;
+  background: #6dbd6b;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.plants {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.plant-card {
+  width: 200px;
+  margin: 15px;
+  padding: 15px;
+  background-color: #f0fdf0;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+
+.plant-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.plant-card button {
+  margin-top: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
